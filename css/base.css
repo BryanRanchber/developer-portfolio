@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -17,16 +18,31 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 20px;
+  margin-top: 20px;
 }
 
 .logo {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.logo-main {
+  font-size: 20px;
+}
+
+.logo-name {
+  font-size: 10px;
 }
 
 .menu-icon {
-  width: 24px;
+  width: 35px;
+}
+
+.logo span {
+  display: block;
+  text-align: center;
 }
 
 .tablist {
@@ -34,6 +50,7 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  display: none;
 }
 
 .tablist a {
@@ -45,21 +62,9 @@ nav {
   justify-content: center;
   gap: 100px;
   margin-top: 20px;
+  display: none;
 }
 
-.hero {
-  margin-top: 80px;
+main {
   padding: 0 30px;
-}
-
-.hero img {
-  width: 220px;
-  border-radius: 50%;
-  border: 9px solid #ca24b4;
-}
-
-.hero h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
 }
