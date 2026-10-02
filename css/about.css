@@ -1,7 +1,105 @@
-h1 {
-  fot-weight: bold;
+.about-me-title {
+  font-weight: bold;
   font-size: 30px;
   line-height: 36px;
-  font-family:"Poppins", sans-serif;
-  color: #42446E;
+  font-family: "Poppins", sans-serif;
+  color: #42446e;
+}
+
+.about-description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #666666;
+}
+
+.experience {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #42446e;
+}
+
+.education {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #42446e;
+}
+
+.entry-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #666666;
+  margin: 0;
+}
+
+.organization {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a7a7a7;
+}
+
+.location {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  color: #a7a7a7;
+}
+
+.date {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 28px;
+  color: #a7a7a7;
+}
+
+.type {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  border-radius: 50px;
+  border: none;
+  padding: 4px;
+  width: 70px;
+  text-align: center;
+  background-color: #d7ffe0;
+  color: #018c0f;
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.details-row {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.details-left {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  border-bottom: 1px solid #EBEAED;
+  padding: 15px 0;
+}
+
+footer {
+  text-align: center
 }
