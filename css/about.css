@@ -1,66 +1,38 @@
-.about-me-title {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 36px;
+.about-me-title,
+.experience,
+.education {
   font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
   color: #42446e;
 }
 
 .about-description {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 20px;
   color: #666666;
-}
-
-.experience {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 36px;
-  font-family: "Poppins", sans-serif;
-  color: #42446e;
-}
-
-.education {
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 36px;
-  font-family: "Poppins", sans-serif;
-  color: #42446e;
 }
 
 .entry-title {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 20px;
   letter-spacing: 1px;
   color: #666666;
   margin: 0;
 }
 
-.organization {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a7a7a7;
-}
-
-.location {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 28px;
-  color: #a7a7a7;
-}
-
+.organization,
+.location,
 .date {
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 28px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
   color: #a7a7a7;
 }
 
@@ -87,7 +59,6 @@
 .details-row {
   display: flex;
   justify-content: space-between;
-  
 }
 
 .details-left {
@@ -96,10 +67,81 @@
 }
 
 article {
-  border-bottom: 1px solid #EBEAED;
+  border-bottom: 1px solid #ebeaed;
   padding: 15px 0;
 }
 
-footer {
-  text-align: center
+@media (min-width: 768px) {
+  .about-me-title,
+  .experience,
+  .education {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    color: #42446e;
+  }
+
+  .about-description {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #666666;
+  }
+
+  .entry-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #666666;
+  }
+
+  .organization,
+  .location,
+  .date {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #a7a7a7;
+  }
+
+  .type {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 26px;
+    letter-spacing: 0;
+    width: 84px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  article {
+    min-height: 75px;
+    padding: 15px 0 0;
+  }
+
+  .entry-header {
+    margin-bottom: 4px;
+  }
+
+  .details-left {
+    display: grid;
+    grid-template-columns: 222px 100px;
+    gap: 20px;
+  }
+
+  .education, .details-left {
+    grid-template-columns: 300px 100px;
+  }
+  footer {
+    margin-top: 150px;
+  }
 }
