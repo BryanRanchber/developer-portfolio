@@ -27,6 +27,7 @@ nav {
   font-weight: bold;
   line-height: 1.2;
   background: linear-gradient(to right, #00C0FD, #E70FAA);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -89,6 +90,7 @@ footer {
 
 .footer-gradient {
   background: linear-gradient(to right, #00C0FD, #E70FAA);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
