@@ -1,17 +1,23 @@
-
 .hero {
-  margin-top: 80px;
+  margin-top: 140px;
 }
 
 .hero img {
-  width: 220px;
+  width: 260px;
   border-radius: 50%;
-  border: 9px solid #ca24b4;
+  border: 9px solid transparent;
+  background: linear-gradient(to top, #00c0fd, #e70faa) border-box;
 }
 
 .hero h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
 }
 
+.hero-name {
+  background: linear-gradient(to top, #00c0fd, #e70faa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
