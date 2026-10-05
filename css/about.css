@@ -1,11 +1,21 @@
+.tablist,
+.social-links {
+  display: none;
+}
+
+.about-me-title {
+  margin-bottom: 25px;
+}
+
 .about-me-title,
 .experience,
 .education {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 26px;
   color: #42446e;
+  margin-top: 30px;
 }
 
 .about-description {
@@ -71,7 +81,15 @@ article {
   padding: 15px 0;
 }
 
+footer {
+  margin-top: 400px;
+}
+
 @media (min-width: 768px) {
+  .tablist,
+  .social-links {
+    display: flex;
+  }
   .about-me-title,
   .experience,
   .education {
@@ -138,11 +156,12 @@ article {
     gap: 20px;
   }
 
-  .education, .details-left {
+  .education,
+  .details-left {
     grid-template-columns: 300px 100px;
   }
-  
+
   footer {
-    margin-top: 150px;
+    margin-top: 50px;
   }
 }
