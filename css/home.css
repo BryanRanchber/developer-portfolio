@@ -3,7 +3,7 @@
 }
 
 .hero img {
-  width: 260px;
+  width: 240px;
   border-radius: 50%;
   border: 9px solid transparent;
   background: linear-gradient(to top, #00c0fd, #e70faa) border-box;
@@ -12,7 +12,7 @@
 .hero h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .hero-name {
@@ -20,4 +20,36 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+footer {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    width: 1204px;
+    margin: 250px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero img {
+    width: 349px;
+  }
+
+  .hero h1 {
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 165px;
+  }
 }

@@ -141,6 +141,7 @@ article {
   .education, .details-left {
     grid-template-columns: 300px 100px;
   }
+  
   footer {
     margin-top: 150px;
   }
