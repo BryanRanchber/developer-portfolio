@@ -1,12 +1,12 @@
-main {
-  width: 1193px;
-  margin-left: 207px;
-  padding: 0;
+.tablist,
+.social-links {
+  display: none;
 }
+
 .tech-stack h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 42px;
+  font-size: 24px;
   line-height: 26px;
   letter-spacing: 0px;
   color: #42446e;
@@ -16,19 +16,19 @@ main {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: Regular;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 15px;
+  line-height: 20px;
   letter-spacing: 0px;
   color: #666666;
 }
 
 .tech-stack ul {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   width: 100%;
-  margin: 150px 0 0;
+  margin: 50px 0 0;
   row-gap: 30px;
-} 
+}
 
 .tech-stack li {
   display: flex;
@@ -36,50 +36,46 @@ main {
   align-items: center;
 }
 
-.tech-stack li p {
+.tech-stack li img {
+  max-width: 70px;
+  max-height: 70px;
+  width: auto;
+  height: auto;
+}
+
+tech-stack li p {
   margin: 0 0 10px;
 }
 
 @media (min-width: 1024px) {
+  .tablist,
+  .social-links {
+    display: flex;
+  }
+
   main {
-  width: 1193px;
-  margin-left: 207px;
-  padding: 0;
-}
-.tech-stack h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 26px;
-  letter-spacing: 0px;
-  color: #42446e;
-}
+    width: 1193px;
+    margin-left: 207px;
+    padding: 0;
+  }
+  .tech-stack h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+  }
 
-.tech-stack p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 20px;
-  line-height: 26px;
-  letter-spacing: 0px;
-  color: #666666;
-}
+  .tech-stack p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+  }
 
-.tech-stack ul {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  width: 100%;
-  margin: 150px 0 0;
-  row-gap: 30px;
-} 
+  .tech-stack ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 150px 0 0;
+  }
 
-.tech-stack li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.tech-stack li p {
-  margin: 0 0 10px;
-}
+  .tech-stack li p {
+    margin: 0 0 10px;
+  }
 }
