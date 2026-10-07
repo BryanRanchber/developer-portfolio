@@ -16,7 +16,6 @@ h1 {
 .contact-link {
   display: block;
   text-align: center;
-  font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
@@ -33,7 +32,6 @@ h1 {
 }
 
 .contact-section p {
-  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -49,10 +47,11 @@ h1 {
   }
 
   main {
-    width: 100%;
-    margin-left: 0;
+    width: 1199px;
+    margin: 20px auto 0;
     padding: 0;
   }
+
   h1,
   .contact-link {
     font-size: 58px;

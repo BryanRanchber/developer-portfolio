@@ -4,7 +4,6 @@
 }
 
 .tech-stack h1 {
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 26px;
@@ -13,7 +12,6 @@
 }
 
 .tech-stack p {
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: Regular;
   font-size: 15px;
@@ -48,23 +46,22 @@ tech-stack li p {
 }
 
 @media (min-width: 1024px) {
+  main {
+    width: 1199px;
+    margin: 20px auto 0;
+    padding: 0;
+  }
+
   .tablist,
   .social-links {
     display: flex;
   }
 
-  main {
-    width: 1193px;
-    margin-left: 207px;
-    padding: 0;
-  }
   .tech-stack h1 {
-    font-family: "Poppins", sans-serif;
     font-size: 42px;
   }
 
   .tech-stack p {
-    font-family: "Poppins", sans-serif;
     font-size: 20px;
     line-height: 26px;
   }
