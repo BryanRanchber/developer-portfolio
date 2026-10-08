@@ -8,36 +8,39 @@ h1 {
   font-weight: 700;
   font-size: 25px;
   line-height: 40px;
-  letter-spacing: -0.5px;
+  margin-bottom: 10px;
   text-align: center;
-  color: #1e0e62;
+  color: var(--contact-heading-color);
 }
 
-.contact-link {
+.contact-info {
   display: block;
   text-align: center;
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
-  letter-spacing: -0.5px;
+  margin:0;
   background: linear-gradient(to right, #00c0fd, #e70faa);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-decoration: none;
 }
 
 .contact-section {
   margin-top: 70px;
 }
 
-.contact-section p {
+.contact-or {
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
   text-align: center;
   margin: 0;
-  color: #666666;
+  color: var(--secondary-color);
+}
+
+.mobile-contact{
+  display: block;
 }
 
 @media (min-width: 1024px) {
@@ -48,12 +51,12 @@ h1 {
 
   main {
     width: 1199px;
-    margin: 20px auto 0;
+    margin: 10px auto 0;
     padding: 0;
   }
 
   h1,
-  .contact-link {
+  .contact-info {
     font-size: 58px;
     line-height: 70px;
     letter-spacing: -1px;
@@ -71,7 +74,7 @@ h1 {
     margin: 0;
   }
 
-  .contact-section p {
-    font-size: 24px;
+  .mobile-contact {
+    display: none;
   }
 }

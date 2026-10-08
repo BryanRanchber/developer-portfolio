@@ -12,7 +12,7 @@
 .hero h1 {
   font-weight: 700;
   font-size: 24px;
-  color: #42446e;
+  color: var(--heading-color);
 }
 
 .hero-name {
