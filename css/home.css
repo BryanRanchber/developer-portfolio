@@ -4,6 +4,8 @@
 
 .hero img {
   width: 240px;
+  height: 240px;
+  object-fit: cover;
   border-radius: 50%;
   border: 9px solid transparent;
   background: linear-gradient(to top, #00c0fd, #e70faa) border-box;
@@ -16,7 +18,7 @@
 }
 
 .hero-name {
-  background: linear-gradient(to top, #00c0fd, #e70faa);
+  background: linear-gradient(to right, #00c0fd, #e70faa);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,7 +39,9 @@
   }
 
   .hero img {
-    width: 349px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
   }
 
   .hero h1 {
