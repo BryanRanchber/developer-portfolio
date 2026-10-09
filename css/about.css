@@ -139,9 +139,8 @@ footer {
 
   .type {
     font-weight: 600;
-    font-size: 10px;
-    line-height: 26px;
-    width: 84px;
+    font-size: 12px;
+    width: 100px;
     text-align: center;
     vertical-align: middle;
   }
