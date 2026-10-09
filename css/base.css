@@ -4,9 +4,9 @@
   --heading-color: #42446e;
   --contact-heading-color: #1e0e62;
   --secondary-color: #666666;
-  --muted-color: #a7a7a7;
+  --muted-color: #6b6b6b;
   --card-color: #ffffff;
-  --border-color: #ebeaed;
+  --border-color: #d6d6d6;
 }
 
 body {
@@ -143,7 +143,7 @@ html {
     --muted-color: #737373;
     --secondary-color: #a7a7a7;
     --card-color: #222222;
-    --border-color: #333333;
+    --border-color: #737373;
   }
 
   .social-links img,
