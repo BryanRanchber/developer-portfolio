@@ -56,7 +56,7 @@
   width: 70px;
   text-align: center;
   background-color: #d7ffe0;
-  color: #018c0f;
+  color: #007a0b;
 }
 
 .entry-header {
@@ -83,6 +83,14 @@ article {
 
 footer {
   margin-top: 100px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .organization,
+  .location,
+  .date {
+    filter: invert(1);
+  }
 }
 
 @media (min-width: 1024px) {
@@ -131,9 +139,8 @@ footer {
 
   .type {
     font-weight: 600;
-    font-size: 9px;
+    font-size: 10px;
     line-height: 26px;
-    letter-spacing: 0;
     width: 84px;
     text-align: center;
     vertical-align: middle;
