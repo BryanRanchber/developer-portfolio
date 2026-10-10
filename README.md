@@ -14,7 +14,7 @@ Live site: https://bryanranchber.github.io/u01-porfolio-bryanranchber-260929/ind
 ### Från skiss till kod
 Jag började med att gå igenom Pawans design i Figma för att förstå sidornas struktur, färger, typsnitt, storlekar och avstånd utifrån det som gick att se i skissen. Jag började med att bygga HTML-strukturen för sidorna och lade sedan den gemensamma stylingen i base.css. Där samlade jag sådant som används på alla sidor, som header, nav, footer och färgvariabler, medan varje sida fick sin egen CSS-fil.
 
-Det svåraste var att få desktop-versionen att följa skissen utan att påverka mobillayouten. Jag byggde därför mobile-first och använde en media query vid `1024px`. Ett konkret problem var att profilbilden på Home-sidan blev oval när jag bara använde width. Eftersom bilden inte var kvadratisk behövde jag även sätta samma height för att få ett kvadratiskt område. Jag använde sedan object-fit: cover för att bilden skulle fylla området utan att tappa sina proportioner.
+Det svåraste var att få desktop-versionen att följa skissen utan att påverka mobillayouten. Jag byggde därför mobile-first och använde en media query vid 1024px. Ett konkret problem var att profilbilden på Home-sidan blev oval när jag bara använde width. Eftersom bilden inte var kvadratisk behövde jag även sätta samma height för att få ett kvadratiskt område. Jag använde sedan object-fit: cover för att bilden skulle fylla området utan att tappa sina proportioner.
 
 ### Semantik
 För sidornas grundläggande struktur använde jag header, nav, main och footer eftersom de beskriver sidans olika delar och gör strukturen tydligare. I navigationen använder jag ul och li eftersom länkarna till de fem sidorna är en lista av relaterade länkar.
@@ -22,7 +22,7 @@ För sidornas grundläggande struktur använde jag header, nav, main och footer 
 För innehåll som hör ihop och utgör en egen del av sidan använde jag section, eftersom elementet passar för att gruppera relaterat innehåll. På Projects-sidan använde jag article för projektkorten eftersom varje projekt är ett eget innehåll som kan stå för sig själv. Jag använde div där jag behövde gruppera element för layout eller styling och där inget annat semantiskt element passade bättre.
 
 ### Layout
-Jag använde Flexbox främst i header och navigation eftersom elementen behöver placeras och justeras i förhållande till varandra. Det passade bra för exempelvis logotypen, navigationen och de sociala länkarna, där innehållet främst behöver ordnas i en rad eller kolumn.
+Jag använde Flexbox främst i header och navigation eftersom elementen behöver placeras och justeras i förhållande till varandra. Det passade bra för exempelvis logotypen, navigationen och de sociala länkarna, där innehållet främst behöver ordnas i en rad eller kolumn. Jag använde även Flexbox på Projects och About-sidan för att placera och justera innehåll inom olika delar.
 
 På Projects-sidan använde jag Grid eftersom projektkorten ska placeras i ett rutnät. Med Grid blir det enklare att styra hur många kolumner som ska visas och anpassa layouten efter skärmstorleken.
 
@@ -50,6 +50,6 @@ Med mer tid skulle jag vilja strukturera CSS-koden ännu bättre och göra fler 
 
 ### AI-verktyg
 
-Jag använde AI (ChatGPT) under projektet för att få feedback på min kod och för att förstå olika problem jag stötte på. Jag fick bland annat hjälp med CSS, dark mode, Git och GitHub Pages och linear-gradient.
+Jag använde AI (ChatGPT) under projektet för att få feedback på min kod och för att förstå olika problem jag stötte på. Jag fick bland annat hjälp med CSS, dark mode, Git, GitHub Pages och linear-gradient.
 
 Jag använde också AI för att förstå varför vissa lösningar inte fungerade som jag tänkte och testade sedan själv olika ändringar för att få koden att passa min design.
