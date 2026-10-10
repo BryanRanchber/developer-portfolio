@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="./css/base.css" />
-    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,29 +24,33 @@
     <header>
       <nav>
         <div class="nav-top">
-          <a href="index.html" class="logo">
+          <a href="../index.html" class="logo">
             <span class="logo-main">{007}</span>
             <span class="logo-name">Ranchber</span>
           </a>
+
+          <button class="menu-button">
+            <img class="menu-icon" src="../images/icons/list.svg" alt="Menu" />
+          </button>
         </div>
 
         <ul class="tablist">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="tech-stack.html">Tech Stack</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/about.html">About</a></li>
+          <li><a href="../pages/tech-stack.html">Tech Stack</a></li>
+          <li><a href="../pages/projects.html">Projects</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
         </ul>
 
         <div class="social-links">
           <a href="https://x.com/?lang=sv"
-            ><img src="./images/icons/twitter.svg" alt="Twitter"
+            ><img src="../images/icons/twitter.svg" alt="Twitter"
           /></a>
           <a href="https://se.linkedin.com/"
-            ><img src="./images/icons/linkedin.svg" alt="LinkedIn"
+            ><img src="../images/icons/linkedin.svg" alt="LinkedIn"
           /></a>
           <a href="https://github.com/BryanRanchber"
-            ><img src="./images/icons/github.svg" alt="GitHub"
+            ><img src="../images/icons/github.svg" alt="GitHub"
           /></a>
         </div>
       </nav>
@@ -55,11 +59,11 @@
     <main>
       <section class="contact-section">
         <h1>For any questions please mail us:</h1>
-        <p class="contact-info">hi@example.com</p>
+        <a class="contact-info" href="mailto:hi@example.com">hi@example.com</a>
 
         <div class="mobile-contact">
           <p class="contact-or">or</p>
-          <p class="contact-info">+91 12345 67890</p>
+          <a class="contact-info" href="tel:+911234567890">+91 12345 67890</a>
         </div>
       </section>
     </main>

@@ -1,3 +1,7 @@
+html {
+  scrollbar-gutter: stable;
+}
+
 :root {
   --background-color: #ffffff;
   --text-color: #000000;
@@ -7,6 +11,12 @@
   --muted-color: #6b6b6b;
   --card-color: #ffffff;
   --border-color: #d6d6d6;
+
+  --gradient-blue: #00c0fd;
+  --hero-blue: #3a86ff;
+  --gradient-pink: #e70faa;
+  --footer-pink: #d6008f;
+  --gradient-purple: #8c56d4;
 }
 
 body {
@@ -48,7 +58,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
-  margin-top: 0px;
 }
 
 .logo {
@@ -57,18 +66,25 @@ nav {
   font-weight: bold;
   line-height: 1.2;
   margin: 15px 0;
-  background: linear-gradient(to right, #00c0fd, #e70faa);
+  background: linear-gradient(to right, var(--gradient-blue), var(--gradient-pink));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.logo-link .logo-main {
+.logo-main {
   font-size: 20px;
 }
 
 .logo-name {
   font-size: 10px;
+}
+
+.menu-button {
+  border: none;
+  background: none;
+  padding: 0;
+
 }
 
 .menu-icon {
@@ -92,9 +108,7 @@ nav {
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
-  letter-spacing: 0;
   text-align: center;
-  vertical-align: middle;
   color: var(--text-color);
   text-decoration: none;
 }
@@ -120,18 +134,14 @@ footer {
 }
 
 .footer-gradient {
-  background: linear-gradient(to right, #00c0fd, #e70faa);
+  background: linear-gradient(to right, var(--hero-blue), var(--gradient-purple));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .footer-pink {
-  color: #d6008f;
-}
-
-html {
-  scrollbar-gutter: stable;
+  color: var(--footer-pink);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -178,12 +188,10 @@ html {
   }
 
   .tablist {
-    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 75px;
     margin-left: auto;
-    color: #666666;
   }
 
   .tablist a {

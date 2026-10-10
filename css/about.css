@@ -31,7 +31,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 1px;
   color: var(--secondary-color);
   margin: 0;
 }
@@ -51,7 +50,6 @@
   font-weight: 300;
   font-size: 12px;
   border-radius: 50px;
-  border: none;
   padding: 4px;
   width: 70px;
   text-align: center;
@@ -111,21 +109,18 @@ footer {
     font-weight: 700;
     font-size: 42px;
     line-height: 52px;
-    letter-spacing: -0.4px;
   }
 
   .about-description {
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
-    letter-spacing: 0px;
   }
 
   .entry-title {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    letter-spacing: 1px;
   }
 
   .organization,
@@ -134,7 +129,6 @@ footer {
     font-weight: 500;
     font-size: 12px;
     line-height: 28px;
-    letter-spacing: 1px;
   }
 
   .type {
@@ -142,7 +136,6 @@ footer {
     font-size: 12px;
     width: 100px;
     text-align: center;
-    vertical-align: middle;
   }
 
   article {
@@ -156,12 +149,7 @@ footer {
 
   .details-left {
     display: grid;
-    grid-template-columns: 222px 100px;
-    gap: 20px;
-  }
-
-  .education,
-  .details-left {
     grid-template-columns: 300px 100px;
+    gap: 20px;
   }
 }

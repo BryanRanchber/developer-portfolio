@@ -3,7 +3,7 @@
   display: none;
 }
 
-h1 {
+.contact-section h1 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 25px;
@@ -19,7 +19,7 @@ h1 {
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
-  margin:0;
+  margin: 0;
   background: linear-gradient(to right, #00c0fd, #e70faa);
   background-clip: text;
   -webkit-background-clip: text;
@@ -39,10 +39,6 @@ h1 {
   color: var(--secondary-color);
 }
 
-.mobile-contact{
-  display: block;
-}
-
 @media (min-width: 1024px) {
   .tablist,
   .social-links {
@@ -55,15 +51,13 @@ h1 {
     padding: 0;
   }
 
-  h1,
+  .contact-section h1,
   .contact-info {
     font-size: 58px;
     line-height: 70px;
-    letter-spacing: -1px;
   }
 
   .contact-section {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

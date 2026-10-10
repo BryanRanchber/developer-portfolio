@@ -38,8 +38,6 @@
 }
 
 .card-details {
-  width: auto;
-  margin: 0;
   padding: 10px;
 }
 
@@ -93,10 +91,10 @@
 }
 @media (min-width: 1024px) {
   .tablist,
-.social-links {
-  display: flex;
-}
-  
+  .social-links {
+    display: flex;
+  }
+
   main {
     width: 1199px;
     margin: 10px auto 0;
@@ -115,7 +113,6 @@
   }
 
   .project-grid {
-    display: grid;
     grid-template-columns: repeat(3, 373px);
     column-gap: 40px;
     row-gap: 50px;
@@ -125,10 +122,6 @@
   .project-card {
     width: 373px;
     height: 567px;
-  }
-
-  .project-card > img {
-    height: 260px;
   }
 
   .card-details {
